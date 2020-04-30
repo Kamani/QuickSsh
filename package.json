@@ -14,8 +14,8 @@
 	"homepage": "https://github.com/Kamani/QuickSsh/blob/master/README.md",
 	"icon": "resources/quickssh.png",
 	"galleryBanner": {
-		"color": "#96DFFF",
-		"theme": "dark"
+		"color": "#202430",
+		"theme":"dark"
 	},
 	"engines": {
 		"vscode": "^1.42.0"
