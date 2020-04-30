@@ -1,0 +1,31 @@
+{
+    "servers": {
+        "stgstep": [
+            {
+                "aliasName": "yyyGrex",
+                "host": "grex.org",
+                "port": 22,
+                "user": "yyy",
+                "pwd": ""
+            }
+        ],
+        "stgservers": [
+            {
+                "aliasName": "xxxGrex",
+                "host": "grex.org",
+                "port": 22,
+                "user": "xxx",
+                "pwd": ""
+            }
+        ],
+        "devservers": [
+            {
+                "aliasName": "testGrex",
+                "host": "grex.org",
+                "port": 22,
+                "user": "test",
+                "pwd": ""
+            }
+        ]
+    }
+}

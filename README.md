@@ -1,35 +1,38 @@
-# quickssh README
+# QuickSsh
 
-This is the README for your extension "quickssh". After writing up a brief description, we recommend including the following sections.
+This extension is helpful to quickly fire ssh command on your terminal and connect to specified servers.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+Update all servers in file sshList.json.
 
-For example if there is an image subfolder under your extension project workspace:
+Sample format is already given.
 
-\!\[feature X\]\(images/feature-x.png\)
+You can fire ssh command in 2 ways.
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+1) Connect :- Creates new terminal and fires ssh command in newly created terminal
+2) Connect with Active Terminal :- Fires ssh command in active terminal
+
+\!\[feature X\]\(resources/description.PNG\)
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+For Serverlist you need to Add / Update sshList.json file. sshList.json file is located where this extension is being installed.
 
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
+For Windows User (Default Location) :- %USERPROFILE%\.vscode\extensions
+For Mac User (Default Location) :-
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+> No validation is done failure incase of missing sshList.json file or any bad format.
+
+## Features To Be Added
+
+We would like to add following functionality letter on.
+
+1) Add , Update & Delete Ssh server list directly from UI without Modifying json file manually.
+
+2) Search functionality in tree view.
 
 ## Release Notes
 
@@ -37,29 +40,12 @@ Users appreciate release notes as you update your extension.
 
 ### 1.0.0
 
-Initial release of ...
+Initial Release of QuickSsh Extension to easily run ssh command on terminal.
 
-### 1.0.1
+Generally Backend developers used to work with hundreds of servers and keeping all their names in mind and username and password is really difficult.
 
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+Good UI and makes it really helpful. So this is basic version of QuickSSH.
 
 -----------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
 **Enjoy!**
