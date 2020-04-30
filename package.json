@@ -12,6 +12,11 @@
 		"url": "https://github.com/Kamani/QuickSsh/issues"
 	},
 	"homepage": "https://github.com/Kamani/QuickSsh/blob/master/README.md",
+	"icon": "resources/quickssh.png",
+	"galleryBanner": {
+		"color": "#96DFFF",
+		"theme": "dark"
+	},
 	"engines": {
 		"vscode": "^1.42.0"
 	},
