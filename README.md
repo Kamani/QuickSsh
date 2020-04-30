@@ -20,7 +20,10 @@ You can fire ssh command in 2 ways.
 For Serverlist you need to Add / Update sshList.json file. sshList.json file is located where this extension is being installed.
 
 For Windows User (Default Location) :- %USERPROFILE%\.vscode\extensions
-For Mac User (Default Location) :-
+
+For Mac User (Default Location) :- $HOME/.vscode/extensions
+
+For Linux User (Default Location) :- $HOME/.vscode/extensions
 
 ## Known Issues
 

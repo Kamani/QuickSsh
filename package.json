@@ -3,7 +3,15 @@
 	"name": "quickssh",
 	"displayName": "QuickSSH",
 	"description": "Perform SSH and create new alias for ssh and use alias for ssh",
-	"version": "0.0.1",
+	"version": "1.0.0",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Kamani/QuickSsh.git"
+	},
+	"bugs": {
+		"url": "https://github.com/Kamani/QuickSsh/issues"
+	},
+	"homepage": "https://github.com/Kamani/QuickSsh/blob/master/README.md",
 	"engines": {
 		"vscode": "^1.42.0"
 	},
