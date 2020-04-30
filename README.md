@@ -13,7 +13,7 @@ You can fire ssh command in 2 ways.
 1) Connect :- Creates new terminal and fires ssh command in newly created terminal
 2) Connect with Active Terminal :- Fires ssh command in active terminal
 
-![Extension Image](https://github.com/KAMANI/QuickSsh/blob/master/description.PNG?raw=true)
+![Extension Image](https://github.com/Kamani/QuickSsh/blob/master/resources/description.PNG)
 
 ## Requirements
 
